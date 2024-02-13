@@ -101,13 +101,7 @@ end
 function love.load()
     math.randomseed(os.time())
 
-    love.window.setTitle("Tic-Tac-Toe")
     love.graphics.setBackgroundColor(0.549, 0.549, 0.541)
-    love.window.setMode(600, 600, {
-        resizable = true,
-        minwidth = 600,
-        minheight = 600
-    })
     ttt.win_w = 600
     ttt.win_h = 600
 
