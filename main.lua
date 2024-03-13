@@ -1,4 +1,4 @@
-ttt = {}
+local ttt = {}
 
 function ttt:drawGrid()
     love.graphics.setColor(255 ,255, 255)
